@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Credit Calculator</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" media="screen" href="app.css" />
+    <script src="style.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <h3>Credit Calculator</h3>
+      <form action="#" id="formKredi">
+        <label for="Tutar">Enter the loan amount you want to withdraw:</label>
+        <input type="text" name="" id="amount" />
+        <!--<label for="Tutar">Güncel faiz oranını giriniz:</label>
+        <input type="text" name="" id="oran">-->
+        <label for="listeVade">Choose maturity:</label>
+        <select name="" id="listeVade">
+          <option value="12">12 Months</option>
+          <option value="24">24 Months</option>
+          <option value="36">36 Months</option>
+          <option value="48">48 Months</option>
+          <option value="60">60 Months</option>
+        </select>
+        <input
+          type="button"
+          id="value_btn"
+          value="Calculate Loan Repayment Terms"
+          onclick="Calculate();"
+        />
+      </form>
+      <h5 id="sonuc"></h5>
+    </div>
+    <div class="sidebar">
+      <h4>Current interest rate</h4>
+      <table>
+        <tr>
+          <td>12 Months</td>
+          <td>1.4</td>
+        </tr>
+        <tr>
+          <td>24 Months</td>
+          <td>1.5</td>
+        </tr>
+        <tr>
+          <td>36 Months</td>
+          <td>1.6</td>
+        </tr>
+        <tr>
+          <td>48 Months</td>
+          <td>1.7</td>
+        </tr>
+        <tr>
+          <td>60 Months</td>
+          <td>1.8</td>
+        </tr>
+      </table>
+    </div>
+    <footer>
+      <marquee scrollamount="8" direction="right" color="red">
+        We Do Not Recommend Taking Credits !!!
+      </marquee>
+    </footer>
+  </body>
+</html>
