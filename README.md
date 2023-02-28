@@ -23,5 +23,5 @@ const currentYear = new Date().getFullYear();
 const newYearTime = new Date(`January 01 ${currentYear + 1} 00:00:00`);<br>
 
 
-<img src="https://github.com/nurettinyavuz/Countdown-Timer/blob/master/Output%20photo/Output%20photo.JPG?raw=true" alt="alt text" width="1100" height="500">
+<img src="https://github.com/nurettinyavuz/Credit-calculator/blob/master/Output%20example.JPG?raw=true" alt="alt text" width="1100" height="500">
 
