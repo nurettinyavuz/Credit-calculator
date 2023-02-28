@@ -1,23 +1,27 @@
 # Credit-calculator
 
 ## The following tools/languages will be used in this project;
-***Vanilla Javascript**<br>
+***Javascript**<br>
 ***HTML**<br>
 ***CSS**
 
 ## The goal of the project
-**In this project, I handled the loan structure in a simple and understandable way.**
-**And while I was building this structure, I took fixed interest rates as an example.**
-**On the right side of the page, the interest rate percentage is written according to the selected month in the form of a table.**
-
-## How It's Used
-**User enters how much money they want to withdraw,then the user chooses how many months he wants to pay from the options.<br>**
-**Finally, the user clicks on the "Calculate Loan Repayment Terms" button and sees the results.<br>**
+**The aim of the project is to prioritize algorithm skills and to have a good grasp of simple Javascript logic.**
+**Understanding the logic of making snow effect using CSS and Javascript structure (especially Javascript) can be used in different examples based on this.**
 
 ## Output of the code
-**First, the total amount that the user will return is written at the top.<br>**
-**Secondly, it says how much the user will reimburse each month.<br>**
-**Finally, the difference between the amount the user wants to withdraw and the amount to be paid back is written.**
+**First,The time left until the New Year is displayed on the output of the code. Since we use a dynamic structure, this counter starts to count again every year.<br>**
+**For example, it is currently counting down to 2024, but when we enter 2024, it will automatically start counting down to 2025.<br>**
 
-<img src="https://github.com/nurettinyavuz/Credit-calculator/blob/master/Output%20example.JPG?raw=true" alt="alt text" width="800" height="500">
+## The code structure required to make it dynamic
+**The above snippet gets the current year.**
+**In the second piece of code
+The reason we add +1 to the current year is to determine the year we have chosen as the target.**
+
+const currentYear = new Date().getFullYear();
+
+const newYearTime = new Date(`January 01 ${currentYear + 1} 00:00:00`);<br>
+
+
+<img src="https://github.com/nurettinyavuz/Countdown-Timer/blob/master/Output%20photo/Output%20photo.JPG?raw=true" alt="alt text" width="1100" height="500">
 
