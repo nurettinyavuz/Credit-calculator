@@ -6,21 +6,14 @@
 ***CSS**
 
 ## The goal of the project
-**The aim of the project is to prioritize algorithm skills and to have a good grasp of simple Javascript logic.**
-**Understanding the logic of making snow effect using CSS and Javascript structure (especially Javascript) can be used in different examples based on this.**
+**The purpose of this project is when the user wants to take out a loan, he writes the amount he wants to withdraw and how much he will pay back, etc. sees the information.<br>**
+**It was generally a not too difficult example to improve knowledge of algorithms on Js.**
 
 ## Output of the code
-**First,The time left until the New Year is displayed on the output of the code. Since we use a dynamic structure, this counter starts to count again every year.<br>**
-**For example, it is currently counting down to 2024, but when we enter 2024, it will automatically start counting down to 2025.<br>**
-
-## The code structure required to make it dynamic
-**The above snippet gets the current year.**
-**In the second piece of code
-The reason we add +1 to the current year is to determine the year we have chosen as the target.**
-
-const currentYear = new Date().getFullYear();
-
-const newYearTime = new Date(`January 01 ${currentYear + 1} 00:00:00`);<br>
+**In the output of the code, firstly, it shows how much the user will pay back after entering the amount that the user wants to withdraw credit and how many months he/she wants to pay back.<br>**
+**second, it sees how much the user will reimburse each month<br>**
+**The third one shows the difference between the amount withdrawn and the amount paid by the user on the screen, and the user decides whether to take a loan accordingly.**
+**And finally, I entered the representative interest rates on the right side of the page, for example, if it takes a 12-month loan, it will pay back with an interest rate of 1.4.**
 
 
 <img src="https://github.com/nurettinyavuz/Credit-calculator/blob/master/Output%20example.JPG?raw=true" alt="alt text" width="1100" height="500">
